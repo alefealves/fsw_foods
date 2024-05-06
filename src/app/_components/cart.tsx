@@ -50,7 +50,7 @@ const Cart = () => {
 
                 <div className="flex items-center justify-between text-xs font-semibold">
                   <span>Total</span>
-                  <span>- {formatCurrency(totalPrice)}</span>
+                  <span>{formatCurrency(totalPrice)}</span>
                 </div>
               </CardContent>
             </Card>
